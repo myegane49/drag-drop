@@ -1,9 +1,14 @@
-/// <reference path="./base.ts" />
-/// <reference path="../utils/validation.ts" />
-/// <reference path="../decorators/autobind.ts" />
-/// <reference path="../state/project.ts" />
+// /// <reference path="./base.ts" />
+// /// <reference path="../utils/validation.ts" />
+// /// <reference path="../decorators/autobind.ts" />
+// /// <reference path="../state/project.ts" />
 
-namespace App {
+import { Component } from './base.js'
+import { validate, Validatable } from '../utils/validation.js'
+import { autobind } from '../decorators/autobind.js'
+import { projectState } from '../state/project.js'
+
+// namespace App {
   export class ProjectInput extends Component<HTMLDivElement, HTMLFormElement> {
     // templateElement: HTMLTemplateElement
     // hostElement: HTMLDivElement
@@ -86,4 +91,4 @@ namespace App {
     //   this.hostElement.insertAdjacentElement('afterbegin', this.element)
     // }
   }
-}
+// }
