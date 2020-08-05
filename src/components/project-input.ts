@@ -3,10 +3,14 @@
 // /// <reference path="../decorators/autobind.ts" />
 // /// <reference path="../state/project.ts" />
 
-import { Component } from './base.js'
-import { validate, Validatable } from '../utils/validation.js'
-import { autobind } from '../decorators/autobind.js'
-import { projectState } from '../state/project.js'
+// import { Component } from './base.js'
+// import { validate, Validatable } from '../utils/validation.js'
+// import { autobind } from '../decorators/autobind.js'
+// import { projectState } from '../state/project.js'
+import { Component } from './base'
+import { validate, Validatable } from '../utils/validation'
+import { autobind } from '../decorators/autobind'
+import { projectState } from '../state/project'
 
 // namespace App {
   export class ProjectInput extends Component<HTMLDivElement, HTMLFormElement> {

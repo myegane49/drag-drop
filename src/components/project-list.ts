@@ -4,12 +4,18 @@
 // /// <reference path="../models/drag-drop.ts" />
 // /// <reference path="../models/project.ts" />
 
-import { DragTarget } from '../models/drag-drop.js'
-import { Project, ProjectStatus } from '../models/project.js'
-import { Component } from './base.js'
-import { autobind } from '../decorators/autobind.js'
-import { projectState } from '../state/project.js'
-import { ProjectItem } from './project-item.js'
+// import { DragTarget } from '../models/drag-drop.js'
+// import { Project, ProjectStatus } from '../models/project.js'
+// import { Component } from './base.js'
+// import { autobind } from '../decorators/autobind.js'
+// import { projectState } from '../state/project.js'
+// import { ProjectItem } from './project-item.js'
+import { DragTarget } from '../models/drag-drop'
+import { Project, ProjectStatus } from '../models/project'
+import { Component } from './base'
+import { autobind } from '../decorators/autobind'
+import { projectState } from '../state/project'
+import { ProjectItem } from './project-item'
 
 // namespace App {
   export class ProjectList extends Component<HTMLDivElement, HTMLElement> implements DragTarget {
